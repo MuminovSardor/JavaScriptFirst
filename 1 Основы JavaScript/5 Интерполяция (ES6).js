@@ -5,11 +5,11 @@
 // console.log('https://someurl.com/' + category + '/' + '5');
 
 
-const category = 'toys';
+// const category = 'toys';
 
-console.log(`https://someurl.com/${category}/5`);
+// console.log(`https://someurl.com/${category}/5`);
 
 
-const user = "Sardor";
+// const user = "Sardor";
 
-alert(`Привет, ${user}`);
+// alert(`Привет, ${user}`);
