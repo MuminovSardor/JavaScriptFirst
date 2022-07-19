@@ -20,14 +20,15 @@
 
 
 
-const hamburger = 2;
-const fries = 1;
+// const hamburger = 3;
+// const fries = 1;
+// const cola = 0;
 
-if(hamburger ===3 && fries) {
-    console.log('Все сыты!');
-} else {
-
-}
+// if(hamburger ===3 && cola === 1 && fries) {
+//     console.log('Все сыты!');
+// } else {
+//     console.log('Мы уходим');
+// }
 
 
 
