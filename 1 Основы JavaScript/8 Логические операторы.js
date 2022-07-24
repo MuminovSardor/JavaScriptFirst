@@ -30,5 +30,17 @@
 //     console.log('Мы уходим');
 // }
 
+// console.log(1 && 0);
+// console.log(1 && 5);
+// console.log(null && 5);
+// console.log(0 && 'qwewyqgdska');
 
+// const hamburger = 3;
+// const fries = 0;
+// const cola = 0;
 
+// if(hamburger || fries || cola) {
+//     console.log('Все довольны!');
+// } else {
+//     console.log('Мы уходим');
+// }
