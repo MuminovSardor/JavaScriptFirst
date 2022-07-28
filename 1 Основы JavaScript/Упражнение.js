@@ -43,9 +43,13 @@ function secondTask() {
 secondTask();
 
 function thirdTask() {
-
-
+    for(let i = 2; i < 11; i++) {
+        if(i % 2 == 0) {
+            console.log(i);
+        }
+    }
 }
+thirdTask();
 
 
 
@@ -58,15 +62,25 @@ function thirdTask() {
 // }
 
 function fourthTask() {
-
-
+    for(let i = 2; i <= 16; i++) {
+        if(i % 2 == 0) {
+            continue;
+        } else {
+            console.log(i);
+        }
+    }
 }
-
+fourthTask();
 
 function fifthTask() {
     const arrayOfNumbers = [];
 
+    for (let i = 5; i < 11; i++) {
+        arrayOfNumbers[i - 5] = i;
+    }
 
+    console.log(arrayOfNumbers);
 
     return arrayOfNumbers;
 }
+fifthTask();
